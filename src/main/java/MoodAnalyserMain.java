@@ -1,6 +1,6 @@
 /**
- * Purpose  -  Handle Exception if User Provides Invalid  Mood like null
- * @author  - Jayan singh Parmar
+ * Purpose  - Null Mood Should Return Happy
+ * @author  - Jayan Singh Parmar
  * @version - 16.0
  * @since   - 03-04-2022
  */
