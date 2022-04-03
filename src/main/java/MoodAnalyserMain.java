@@ -1,5 +1,5 @@
 /**
- * Purpose  - NULL Mood Should Throw  MoodAnalysisException
+ * Purpose  - Empty Mood Should Throw  MoodAnalysisException
  * @author  - Jayant Singh Parmar
  * @version - 16.0
  * @since   - 03-04-2022
