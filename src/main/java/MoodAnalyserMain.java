@@ -5,7 +5,6 @@
  * @since   - 03-04-2022
  */
 
-
 /**
  * create a class name as MoodAnalyserMain
  */
