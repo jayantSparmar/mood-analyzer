@@ -1,5 +1,5 @@
 /**
- * Purpose  -  I am in sad mood, message should return sad
+ * Purpose  - I am in Sad Mood” message in Constructor Should  Return SAD
  * @author  - Jayant Singh Parmar
  * @version - 16.0
  * @since   - 03-04-2022
@@ -9,14 +9,19 @@
  * create a class name as MoodAnalyserMain
  */
 public class MoodAnalyserMain {
+    private String message;
+
     /**
-     * create a constructor ,this is default constructor name as MoodAnalyserMain
+     * default constructor name as MoodAnalyserMain
      */
     public MoodAnalyserMain() {
     }
 
-    public String analyseMood(String message) {
-        if (message.contains("Sad"))
+    public MoodAnalyserMain(String message) {
+        this.message=message;
+    }
+    public String analyseMood() {
+        if (this.message.contains("Sad"))
             return "SAD";
         else
             return "HAPPY";
