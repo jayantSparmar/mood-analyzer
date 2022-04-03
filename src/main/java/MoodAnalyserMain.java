@@ -1,5 +1,5 @@
 /**
- * Purpose  - Inform user if entered Invalid Mood
+ * Purpose  - NULL Mood Should Throw  MoodAnalysisException
  * @author  - Jayant Singh Parmar
  * @version - 16.0
  * @since   - 03-04-2022
